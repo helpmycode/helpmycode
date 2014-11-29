@@ -19,3 +19,4 @@
 .ruby-version
 .ruby-gemset
 /config/database.local.yml
+.git-authors
