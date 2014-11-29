@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.0.0'
+gem 'compass-rails'
+gem 'devise'
+gem 'haml-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
