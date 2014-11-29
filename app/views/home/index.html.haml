@@ -1,0 +1,26 @@
+.site-wrapper
+  .site-wrapper-inner
+    .cover-container
+      .masthead.clearfix
+        .inner
+          %h3.masthead-brand HelpMyCode
+          %nav
+            %ul.nav.masthead-nav
+              %li.active
+                = link_to 'Inicio', '#'
+              %li
+                = link_to 'Quienes somos', '#'
+              %li
+                = link_to 'Contacto', '#'
+        .inner-cover
+          %h1.cover-header Titulo
+          %p.lead
+            Aqui ira una sorprendente descripción
+          %p.lead
+            = link_to 'Iniciar sesión',
+              new_user_session_path,
+              class: 'btn btn-lg btn-default'
+        .mastfood
+          .inner
+            %p
+              Cover template for testing
