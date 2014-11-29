@@ -17,4 +17,4 @@ production:
   username: helpmycode
   password: <%= ENV['HELPMYCODE_DATABASE_PASSWORD'] %>
 
-<%= IO.read('config/database.local.yml') if File.exists('config/database.local.yml') %>
+<%= IO.read('config/database.local.yml') if File.exists?('config/database.local.yml') %>
